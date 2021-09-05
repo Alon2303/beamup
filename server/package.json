@@ -1,0 +1,23 @@
+{
+  "name": "beamup-server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Alon2303 <alonof27@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongodb": "^4.1.1",
+    "pino": "^6.13.1",
+    "pino-http": "^5.7.0",
+    "pino-pretty": "^6.0.0"
+  }
+}
