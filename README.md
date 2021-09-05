@@ -9,20 +9,20 @@ Implemented.
 Implemented.  
   
 ### The frontend application communicate with a backend service which in turn communicates with github’s api ->  
-Implemented. I used axios on the back/fromt ends.  
+Implemented. I used axios on the back/front ends.  
 
 ### Clicking on the repository should load additional information from github’s api (pick any additional fields you wish to show) ->  
-implemented. I choose to display metrics on all repos and user could choose one by one wich ones to add,  
-instead of going back and forth. I choose to display the the indivdual repo's: id, name, watchers, forks, owner.  
+implemented. I choose to display metrics on all repos and the user could choose one by one which ones to add,  
+instead of going back and forth. I choose to display the indivdual repo's: id, name, watchers, forks, owner.  
    
 ### The user should also be able to add repositories to their profile  ->  
-not implmented  
+not implemented  
 
 ### The user should also be able add a short description to them   ->  
 not implmented  
   
 ### Saving should be persistent between page refreshes ->  
-implementd using store.js which makes it easier then using localstorage (supports strings) and preferablle to redux as it's 
+implementd using store.js which makes it easier then using localstorage (supports parsing, objects) and preferable to redux as redux is 
 not presistent over refreshes  
   
 ### Results should be saved in the backend, either in a db such as mongo, or an in memory cache such as redis ->  
@@ -41,20 +41,20 @@ If i had more time i would have implemented using simple filter/sort functions, 
 give the user a choice to store his choices so next time the results will be already sorted/filtered
   
 ### Error handling ->  
-implemented minimaly. If i had more time i would have used the built in node errorobject for costim handling,  
+implemented minimaly. If i had more time i would have used the built in node errorobject for costum handling,  
 the backend would dictate the errors to the F/E and i would use snackbars to display them to the user.  
   
 ### Logging ->  
-Implemented with pino-http. If i had more time i would save the logs to kibana/db collection for easier debugging.
+Implemented with pino-http. If i had more time i would save the logs to kibana | a db collection for easier debugging.
 
 ## Special Remarks:  
-If i had more time i would also would have refrained from usinf inline styles and used pallete(theme object),  
+If i had more time i would also have refrained from usinf inline styles and used pallete(theme object),  
 I would have added responsiveness using Grid layout,  
 I would have added tests with jest to the frontend (snapshots, unit/integration),  
 I would have used redux for cross component state management,  
 I would have created speration of concerns in the frontend (a file for rendering, file to handle states, file for logic),  
 which would have made it easier to test.  
-I would have mocked mongo using jest/promises in the B/E, and only read/write to the db in production on in e2e testing.  
+I would have mocked mongo using jest/promises in the B/E, and only read/write to the db in production or in e2e testing.  
 I would have optimized the build by running `npm run build`.     
 
 ## Usage:  
