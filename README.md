@@ -1,4 +1,4 @@
-# BeamUP  
+# Search for Git repos  
 
 ### A application to give users an option to bookmark and comment on their favorite and most useful Github repositories.  
 
